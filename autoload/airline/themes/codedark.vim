@@ -68,7 +68,7 @@ let g:airline#themes#codedark#palette.normal_modified.airline_warning = s:Warnin
 
 " Insert:
 
-let s:I1 = [ s:cdYellow.gui, s:cdBack.gui, s:cdYellow.cterm, s:cdBack.cterm, 'none' ]
+let s:I1 = [ s:cdFront.gui, s:cdBack.gui, s:cdFront.cterm, s:cdBack.cterm, 'bold' ]
 let s:I2 = [ s:cdFront.gui, s:cdDarkDark.gui, s:cdFront.cterm, s:cdDarkDark.cterm, 'none' ]
 let s:I3 = [ s:cdFront.gui, s:cdDarkDarkDark.gui, s:cdFront.cterm, s:cdDarkDarkDark.cterm, 'none' ]
 let s:IM = [ s:cdFront.gui, s:cdDarkDarkDark.gui, s:cdFront.cterm, s:cdDarkDarkDark.cterm, 'none']
