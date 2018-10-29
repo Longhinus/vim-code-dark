@@ -173,7 +173,7 @@ call <sid>hi('WildMenu', s:cdNone, s:cdSelection, 'none', {})
 
 " Comment
 call <sid>hi('Comment', s:cdGreen, s:cdBack, 'none', {})
-call <sid>hi('Paragraph', s:cdPink, s:cdBack, 'bold', {})
+call <sid>hi('Paragraph', s:cdPink, s:cdBack, 'none', {})
 call <sid>hi('Todo', s:cdBlue, s:cdBack, 'none', {})
 call <sid>hi('CommentError', s:cdRed, s:cdBack, 'none', {})
 call <sid>hi('Headline', s:cdYellowOrange, s:cdBack, 'bold', {})
